@@ -8,7 +8,7 @@ import SearchMoviesContext from "../../context/SearchMoviesContext";
 
 import "./index.css";
 
-const SearchedMovies = () => {
+const SearchQuery = () => {
   const renderEmptyView = () => (
     <div className="empty-view-container">
       <h1>No results found.</h1>
@@ -72,4 +72,4 @@ const SearchedMovies = () => {
   );
 };
 
-export default SearchedMovies;
+export default SearchQuery;
